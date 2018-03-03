@@ -1,0 +1,113 @@
+*{
+  font-family: Segoe UI Light;
+}
+
+.orange{
+  color: #fd7e14;
+}
+
+nav{
+  flex-direction: column;
+  display: flex;
+background:  #fd7e14;
+
+}
+article {
+  padding: 30px;
+}
+
+.col{float: left;}
+.col.half{width: 50%;}
+.col.third{width: 33.33%;}
+
+.bbtn{
+  color: white;
+  background:  #fd7e14;
+  border: none;
+  padding: 10px;
+
+}
+.centerized{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+background: lightgray;
+padding: 20px;
+}
+article p, article h1{
+  padding: 5px;
+  text-align: justify;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+ul{
+			display: flex;
+			list-style: none;
+			padding: 0px;
+
+flex: 1;
+
+		}
+    .wrapper
+  {
+    height: 1690px;
+    margin: 0 ;
+  }
+
+.acc{
+
+text-decoration: none;
+list-style: none;
+color: white;
+}
+li{
+        display: block;
+        text-decoration: none;
+        list-style: none;
+
+        color: white;
+        padding: 7px;
+
+
+      }
+
+      .float-right{
+        float: right;
+      }
+
+      section{
+        height: 40vh;
+        display: flex;
+      }
+
+      .bgd-img{
+      background:
+
+          url('../image/Picture1.png');
+
+          background-size:cover;
+          color: white;
+
+      }
+
+.fa{
+  font-size: 200%;
+}
+
+      .section{
+      	height: 70vh;
+      	display: flex;
+      	align-items: center;
+      	justify-content: center;
+      	text-align: center;
+        background: black;
+        color: white;
+        padding: 50px;
+      }
+
+      .message{
+
+      }

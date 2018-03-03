@@ -1,0 +1,185 @@
+*{
+  font-family: Segoe UI Light, sans-serif;
+}
+
+			nav ul{
+				flex-direction:row;
+			}
+
+      header{
+			background: #111;
+			color: white;
+			padding: 15px;
+		}
+
+nav>ul{
+			display: flex;
+			list-style: none;
+			padding: 0px;
+			flex: 1;
+			margin: 0px;
+		}
+    .wrapper
+  {
+    height: 1690px;
+    margin: 0 ;
+  }
+.acc{
+display: block;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+
+
+}
+    nav>ul li a{
+    			display: block;
+    			text-decoration: none;
+    			list-style: none;
+
+    			color: white;
+    			padding: 20px;
+    		}
+        nav{
+        			display: flex;
+  background: black;
+        		}
+.section{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+		section{
+			height: 100vh;
+			display: flex;
+		}
+.bgd-img{
+  background:
+  			linear-gradient(
+  				rgba(0,0,0,.7),
+  				rgba(0,0,0,.7)),
+  			url('../img/music.jpg');
+
+  			background-size:cover;
+  			color: white;
+
+}
+nav{
+  flex-direction: row;
+
+
+}
+
+nav>ul{
+			display: flex;
+			list-style: none;
+			padding: 0px;
+			flex: 1;
+			margin: 0px;
+		}
+ul li{
+  text-decoration: none;
+display: block;
+}
+
+.float-right{
+  float: right;
+}
+
+    		.faa{
+    			font-size: 300%;
+    			margin-bottom: 20px;
+          border-top: 2px groove;
+          border-color: white;
+          padding: 5px;
+          padding-bottom: 5px;
+          border-bottom: 2px groove;
+    		}
+
+        article {
+        	padding: 30px;
+        }
+
+        .col{float: left;}
+        .col.half{width: 50%;}
+        .col.third{width: 33.33%;}
+
+
+        article p, article h1{
+        	padding: 5px;
+        	text-align: justify;
+        }
+        .row::after{
+          content: "";
+          clear: both;
+          display: block;
+        }
+		section.banner{
+			justify-content: center;
+			align-items: center;
+		}
+
+.voca{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  
+}
+
+.centerized{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+background: lightgray;
+padding: 20px;
+}
+footer{
+  background: black;
+  color: white;
+  text-align: center;
+  padding: auto;
+}
+
+.pink{
+  color:  #e83e8c;
+}
+
+.bbtn{
+  color: white;
+  background: orange;
+  border: none;
+  padding: 10px;
+
+}
+
+.container{
+  height: 100vh;
+display: flex;
+}
+.btn{
+  border: 1px solid white;
+  border-radius: 100px;
+  background: transparent;
+  padding: 10px;
+  color:  white;
+text-align: center;
+align-items: center;
+margin-bottom: 50px;
+}
+.btn:hover{
+  color: white;
+  background:  #e83e8c;
+}
+
+
+.bbtn:hover{
+  color: white;
+  background:  #e83e8c;
+}
+
+li:hover{
+  color: white;
+  background:  #e83e8c;
+}

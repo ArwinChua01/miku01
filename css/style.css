@@ -1,0 +1,42 @@
+.violet{
+  color: white;
+  background: darkviolet;
+  padding: auto;
+text-align: justify;
+justify-content: center;
+
+}
+footer{
+  text-align: center;
+}
+
+.ftr{
+  background: blue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+*{
+  font-family: sans-serif;
+}
+
+.btn{
+  float: right;
+  border: 1px solid white;
+  background: transparent;
+  padding: 3px;
+  color: white;
+}
+
+.fb{
+  color: white;
+  background: blue;
+  padding: 10px;
+  margin-bottom: 5px;
+}
